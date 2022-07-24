@@ -52,11 +52,66 @@ footer{
     padding: 5%;
 }
 
+.brands{
+    padding: 5% 0%;
+}
+.singer-img img{
+    width: 100%;
+    margin-top: 6%;
+    border-radius: 10px;
+}
+.brand-songs{
+    height: 350px;
+    border: 1px solid rgb(67, 66, 66);
+    border-radius: 10px;
+    padding: 3%;
+    overflow-x: auto;
+}
+.songs h3{
+    font-size: 20px;
+    /* text-decoration: underline; */
+    color: yellowgreen;
+}
+
+.brand-song{
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.song-name{
+    text-align: center;
+    align-items: center;
+}
+.brand-song span{
+    margin-left: 1%;
+    width: 280px;
+}
+
 @media only screen and (max-width: 767px) {
    .carousel{
     height: 250px;
    } 
    .carousel img{
     height: 250px;
+   }
+   .singer-info{
+    margin-top: 4%;
+    text-align: center;
+    
+   }
+   .singer-info p{
+    text-align: justify;
+   }
+   .brand-song i{
+    font-size: 12px;
+   }
+   .brand-song span{
+    font-size: 13px;
+    margin-left: 1%;
+    width: 100px;
+   }
+   audio{
+    width: 280px;
    }
 }
